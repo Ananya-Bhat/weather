@@ -8,7 +8,7 @@ const Header = () => {
     <div className="headerContainer">
       <div className="webHeader">
         <div className="logo">
-          <img src={require("../../assests/logo_web.png")} alt="" />
+          <img src={require("../../assets/logo_web.png")} alt="" />
         </div>
         <div className="searchFiled">
           <form className="formcontainer">
@@ -22,7 +22,7 @@ const Header = () => {
             </div>
             <div className="searchIcn">
               <img
-                src={require("../../assests/icon_search_white.png")}
+                src={require("../../assets/icon_search_white.png")}
                 alt=""
                 className="searchIcn"
               />
@@ -34,7 +34,7 @@ const Header = () => {
         <div className="mobileLeft">
           <div className="burgerMenu">
             <img
-              src={require("../../assests/icon_menu_white.png")}
+              src={require("../../assets/icon_menu_white.png")}
               alt=""
               className="burger"
               onClick={() => setSideNav(true)}
@@ -42,14 +42,14 @@ const Header = () => {
           </div>
           <div className="mobileLogo">
             <img
-              src={require("../../assests/logo.png")}
+              src={require("../../assets/logo.png")}
               alt=""
               className="mobLogo"
             />
           </div>
         </div>
         <div className="mobileRight">
-          <img src={require("../../assests/icon_search_white.png")} alt="" />
+          <img src={require("../../assets/icon_search_white.png")} alt="" />
         </div>
       </div>
       {sideNav ? (

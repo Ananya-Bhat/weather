@@ -18,7 +18,7 @@ const HomeTab = (props: any) => {
             <div className="locationName">Udupi, Karnataka</div>
             <div className="addToFav">
               <div className="heartImg">
-                <img src={require("../../assests/icon_favourite.png")} alt="" />
+                <img src={require("../../assets/icon_favourite.png")} alt="" />
               </div>
               <div className="addFavText">Add to Favourites</div>
             </div>
