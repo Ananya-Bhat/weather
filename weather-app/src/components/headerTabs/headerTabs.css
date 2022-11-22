@@ -1,0 +1,94 @@
+.headerTabsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    border-bottom: 1px solid white;
+
+}
+
+.webTabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 33px;
+}
+
+.Links {
+    color: white;
+    text-decoration: none;
+
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+
+.active {
+    border-bottom: 2px solid #FFD639;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+    color: #FFD639;
+    padding-bottom: 10px;
+}
+
+.dates {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: right;
+}
+
+.homeTab {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:780px) {
+    .webTabs {
+        display: none;
+    }
+
+    .LinksName {
+        color: #707070;
+        font-family: Roboto;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 36px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .active {
+        color: black;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .headerTabsContainer {
+
+        border-bottom: none;
+    }
+
+    .homeTab {
+        margin: 0;
+        padding: 0% 3%;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,178 @@
+.addToFav {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.locationName {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 24px;
+    /* text-align: center; */
+}
+
+.addFavText {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+}
+
+.heartImg img {
+    height: 20px;
+}
+
+.weatherData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0 10rem 0rem;
+    border-bottom: 1px solid white;
+    gap: 10px;
+}
+
+.degrees {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 75px;
+}
+
+.switchTempature {
+    margin-bottom: 11px;
+}
+
+.degree {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.weatherDetails {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+}
+
+.react-switch-bg {
+    border: 1px solid white !important;
+    background-color: transparent !important;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 1rem; */
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footerListItem {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.minMax1 {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.minMax {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.temp {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 1rem; */
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-around;
+    overflow-y: hidden;
+}
+
+.dateMobile {
+    display: none;
+}
+
+
+@media screen and (max-width:780px) {
+    .footer {
+        margin-top: 2rem;
+        overflow-y: hidden;
+        background: #ffffff40;
+        justify-content: flex-start;
+        gap: 3em;
+        padding: 2em 1em;
+    }
+
+    .weatherContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 85vh;
+
+
+    }
+
+    .footerListItem {
+        min-width: 100px;
+    }
+
+    .dateMobile {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.6;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        line-height: 15px;
+        margin-bottom: 1rem;
+    }
+
+    .dates {
+        display: none;
+    }
+
+    .weatherData {
+        border-bottom: none;
+        padding: 3rem 0 0rem 0rem;
+    }
+
+}
